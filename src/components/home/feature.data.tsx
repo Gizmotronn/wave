@@ -12,23 +12,13 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Accessible',
+    description: 'Get signals on any device at any time. Never again will you miss a bull run or cash out too late because you were away from your trading workstation',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Automatable',
+    description: "If your wallet or trading platform allows API access, this can all be automated - meaning you don't have to lfit a finger.",
     icon: <AttachMoneyIcon />,
-  },
-  {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <LocalLibraryIcon />,
-  },
-  {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <ContactSupportIcon />,
   },
 ]

@@ -153,7 +153,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              Make{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,7 +164,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                Trading <br />
                 <Box
                   sx={{
                     position: 'absolute',
@@ -178,12 +178,24 @@ const HomeFeature: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
+              Easy & Enjoyable
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              No more over-analysing complicated graphs that don't even add up or make sense at the end of the day. Just a simple message, daily: buy when we tell you to buy, and sell when we tell you to sell
+            </Typography>
+            <br /> <br />
+            <Typography component="h2"
+              sx={{
+                position: 'relative',
+                fontSize: { xs: 40, md: 50 },
+                ml: { xs: 0, md: 4 },
+                mt: 2,
+                mb: 3,
+                lineHeight: 1,
+                fontWeight: 'bold',
+              }}>
+              Surf the trend up, and exit before the wave crashes
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>

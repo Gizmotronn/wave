@@ -3,9 +3,9 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'How do I follow the signals?',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      "The system is designed so that you buy when the buy signal fires and completely sell when the sell signal fires, ie you are completely in a position then completely out of a position. This saves you from having to think about “taking profits” or reducing your position size.",
     user: {
       id: 1,
       name: 'Luis Sera',
