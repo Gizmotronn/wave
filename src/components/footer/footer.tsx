@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { FooterNavigation, FooterSocialLinks } from '@/components/footer'
+import Link from 'next/link'
 
 const Footer: FC = () => {
   return (
@@ -19,7 +20,8 @@ const Footer: FC = () => {
                 CryptoWaveSystem
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                CryptoWaveSystem is an online learning platform that has been operating since 2018 until now.
+              We are not financial advisers, and this is not financial advice. We do not offer specific advice with regards to your financial situation. We only portray how we invest in this high risk asset.
+              <br /> <br /> If you have any issues, please <Link href="mailto:cryptowavesystem@gmail.com">email us</Link>
               </Typography>
               <FooterSocialLinks />
             </Box>

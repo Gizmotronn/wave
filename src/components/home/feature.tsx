@@ -164,7 +164,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Trading <br />
+                Investing <br />
                 <Box
                   sx={{
                     position: 'absolute',
@@ -178,11 +178,11 @@ const HomeFeature: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Easy & Enjoyable
+              Simple & Hassle Free
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              No more over-analysing complicated graphs that don't even add up or make sense at the end of the day. Just a simple message, daily: buy when we tell you to buy, and sell when we tell you to sell
+              No more over-analysing complicated graphs that don't even add up or make sense at the end of the day. Just a simple strategy, telling you when to buy and sell.
             </Typography>
             <br /> <br />
             <Typography component="h2"
@@ -239,4 +239,4 @@ const HomeFeature: FC = () => {
   )
 }
 
-export default HomeFeature
+export default HomeFeature;
