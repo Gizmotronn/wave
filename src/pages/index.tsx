@@ -16,11 +16,10 @@ const Home: NextPageWithLayout = () => {
   return (
     <>
       <DynamicHomeHero />
-      <DynamicHomePopularCourse />
       <DynamicHomeFeature />
       <DynamicHomeTestimonial />
-      <HomeHowItWorks />
-      <DynamicHomeOurMentors />
+      {/* <HomeHowItWorks /> */}
+      {/* <DynamicHomeOurMentors /> */}
       <DynamicHomeNewsLetter />
     </>
   )

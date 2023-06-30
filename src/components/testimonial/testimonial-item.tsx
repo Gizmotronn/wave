@@ -17,7 +17,7 @@ const TestimonialItem: FC<Props> = ({ item }) => {
         </Typography>
         <Typography sx={{ mb: 2, color: 'text.secondary' }}>{item.content}</Typography>
       </Box>
-      <Box
+      {/* <Box
         sx={{
           boxShadow: 1,
           borderRadius: 1,
@@ -57,7 +57,7 @@ const TestimonialItem: FC<Props> = ({ item }) => {
             {item.user.professional}
           </Typography>
         </Box>
-      </Box>
+      </Box> */}
     </Box>
   )
 }

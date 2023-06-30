@@ -42,8 +42,8 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
-              <Box
+              <Image src="/images/home1.avif" width={650} height={678} quality={97} alt="Feature img" />
+              {/* <Box
                 sx={{
                   position: 'absolute',
                   top: -36,
@@ -78,9 +78,9 @@ const HomeFeature: FC = () => {
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
-              </Box>
+              </Box> */}
 
-              <Box
+              {/* <Box
                 sx={{
                   position: 'absolute',
                   bottom: -12,
@@ -137,7 +137,7 @@ const HomeFeature: FC = () => {
                     />
                   </Box>
                 </Box>
-              </Box>
+              </Box> */}
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
